@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="3px" >
+    <ImageView android:id="@+id/image"
+        android:layout_width="100px"
+        android:layout_height="80px"
+         />
+    <TextView android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginTop="2px"
+        android:layout_toRightOf="@+id/image"
+        android:padding="3px"
+        android:text="JMD Group"
+        android:textColor="#ff000000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    <TextView android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/image"
+        android:padding="2px"
+        android:text="beyond the expectations..."
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3px"
+        android:text="JMD Group"
+        android:textColor="#ff000000"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/text2"
+        android:layout_alignRight="@+id/text4"
+        android:layout_alignEnd="@+id/text4" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3px"
+        android:text="JMD Group"
+        android:textColor="#777777"
+        android:textSize="22px"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/text2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
